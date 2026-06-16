@@ -29,7 +29,7 @@ pipeline {
  
         stage("Deploy to Tomcat") {
             steps {
-                sh 'cp target/addressbook.war /opt/apache-tomcat-9.0.118/webapps/'
+                sh 'sudo cp target/addressbook.war /opt/apache-tomcat-9.0.118/webapps/'
             }
         }
     }
