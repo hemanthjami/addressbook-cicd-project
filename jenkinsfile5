@@ -10,7 +10,7 @@ pipeline {
  
         stage("Clone") {
             steps { 
-                git 'https://github.com/Sasank2126/addressbook-cicd-project/'
+                git 'https://github.com/hemanthjami/addressbook-cicd-project/'
                 echo 'clone done'
             }
         }
