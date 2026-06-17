@@ -4,7 +4,12 @@ vi inventory.ini
 
 vi playbook.yml
 
-
+provider "kaws" {
+  region     = "eu-north-1"
+  kaccess_key = "AKIA5VLHOEWBXKBZYB7R"
+  ksecret_key = "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"
+}
+k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
 
 ---
 - name: Install Jenkins and Tomcat
